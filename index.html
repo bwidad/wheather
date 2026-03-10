@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Dashboard Rabat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌤️ Météo en temps réel - Rabat</h1>
+  </header>
+
+  <main>
+    <section class="weather-card">
+      <h2 id="city">Rabat</h2>
+      <p id="temperature">-- °C</p>
+      <p id="humidity">Humidité: -- %</p>
+      <p id="wind">Vent: -- km/h</p>
+      <p id="condition">Condition: --</p>
+    </section>
+
+    <section class="history">
+      <h3>Historique des mises à jour</h3>
+      <ul id="updates"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Powered by Azure Function</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
